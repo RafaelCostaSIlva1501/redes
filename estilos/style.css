@@ -39,3 +39,19 @@ main{
     width: 269px;
     height: 473px;
 }
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000066;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid #00000000;
+    transition: border 0.10s;
+    transform: translate(0px, 3px);
+    transition: transform .3s;
+    box-shadow: 5px 5px 5px #00000066;
+}
